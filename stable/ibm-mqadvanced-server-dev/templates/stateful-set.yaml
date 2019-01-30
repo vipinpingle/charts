@@ -73,7 +73,7 @@ spec:
           {{- end }}
           {{- if .Values.persistence.enabled }}
           volumeMounts:
-          - mountPath: "/mnt/mqm"
+          - mountPath: "/usr/mqm"
             name: {{ $volumeClaimTemplateName }}
           {{- end }}
           securityContext:

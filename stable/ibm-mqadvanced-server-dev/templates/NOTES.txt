@@ -1,4 +1,4 @@
-MQ can be accessed via port 1414 on the following DNS name from within your cluster:
+MQ can be accessed via port 1414 on the following DNS name from within your cluster: edited by vipin
 {{ include "sch.names.fullName" (list .) }}.{{ .Release.Namespace }}.svc.cluster.local
 
 To get your admin password run:
